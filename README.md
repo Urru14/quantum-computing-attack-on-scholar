@@ -9,7 +9,8 @@ The series goes: **maths basics → concepts, step by step → by-hand calculati
 |---|---|---|
 | 1 | Bits, qubits, measurement, interference | [`part01_bits_and_qubits`](part01_bits_and_qubits) |
 | 2 | Hilbert space, Dirac (bra-ket) notation, inner products | [`part02_hilbert_space`](part02_hilbert_space) |
-| … | outer products & projectors, postulates, tensor products, density matrix, Bloch sphere, gates, entanglement, algorithms | coming |
+| 3 | Outer products, projectors, the trace trick, completeness, spectral form | [`part03_projectors`](part03_projectors) |
+| … | postulates, tensor products, density matrix, Bloch sphere, gates, entanglement, algorithms | coming |
 | Project | Ground state of ¹⁸O with the variational quantum eigensolver (VQE), following A. Pérez-Obiol *et al.*, *Sci. Rep.* **13**, 12291 (2023), [doi:10.1038/s41598-023-39263-7](https://doi.org/10.1038/s41598-023-39263-7) | [`project_18O`](project_18O) |
 
 Each folder has the scripts (`*.py`) and their recorded output (`*_out.txt`).
@@ -19,6 +20,6 @@ Each folder has the scripts (`*.py`) and their recorded output (`*_out.txt`).
 conda create -n qc python=3.11
 conda activate qc
 pip install numpy qiskit qiskit-aer
-python part02_hilbert_space/complex.py
+python part03_projectors/projectors.py
 ```
 Tested with qiskit 2.6.2 and qiskit-aer 0.18.4.
