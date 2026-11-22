@@ -1,4 +1,3 @@
-# Part 3: outer products, projectors, trace trick, completeness, bra-ket table trick, spectral form
 import numpy as np
 np.set_printoptions(precision=4, suppress=True)
 ket = lambda *v: np.array(v, dtype=complex).reshape(-1, 1)

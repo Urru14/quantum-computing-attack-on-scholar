@@ -3,7 +3,7 @@
 Code for the **Quantum Computing** lecture series on the *Attack on Scholar* YouTube channel.
 Every number shown on screen in a lecture comes from a script in this repo – run it and you get the same output.
 
-The series goes: **maths basics → concepts, step by step → by-hand calculations + code → a small project built on a published paper.**
+The series goes: **maths basics → concepts, step by step → by-hand calculations + code → a small project based on a published research paper.**
 
 | Part | Topic | Folder |
 |---|---|---|
@@ -13,7 +13,7 @@ The series goes: **maths basics → concepts, step by step → by-hand calculati
 | … | postulates, tensor products, density matrix, Bloch sphere, gates, entanglement, algorithms | coming |
 | Project | Simulating an atomic nucleus on a quantum computer (¹⁸O ground state with the variational quantum eigensolver, VQE), based on a published research paper | [`project_18O`](project_18O) |
 
-Each folder has the scripts (`*.py`) and their recorded output (`*_out.txt`).
+Each folder has a README, the scripts (`*.py`) exactly as shown on screen, and their recorded output (`*_out.txt`).
 
 ## Setup
 ```bash

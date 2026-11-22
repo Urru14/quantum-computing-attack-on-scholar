@@ -1,4 +1,3 @@
-# Part 2 (v2): why the bra needs the complex conjugate, normalising by hand, eigenvectors of X
 import numpy as np
 psi = np.array([1, 1j]) / np.sqrt(2)          # (|0> + i|1>)/sqrt2
 print("no conjugate :", np.round(psi @ psi, 3))          # plain dot: 1/2 + i^2/2 = 0  (a nonzero arrow with 'length' 0?!)
