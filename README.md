@@ -11,7 +11,7 @@ The series goes: **maths basics → concepts, step by step → by-hand calculati
 | 2 | Hilbert space, Dirac (bra-ket) notation, inner products | [`part02_hilbert_space`](part02_hilbert_space) |
 | 3 | Outer products, projectors, the trace trick, completeness, spectral form | [`part03_projectors`](part03_projectors) |
 | … | postulates, tensor products, density matrix, Bloch sphere, gates, entanglement, algorithms | coming |
-| Project | Ground state of ¹⁸O with the variational quantum eigensolver (VQE), following A. Pérez-Obiol *et al.*, *Sci. Rep.* **13**, 12291 (2023), [doi:10.1038/s41598-023-39263-7](https://doi.org/10.1038/s41598-023-39263-7) | [`project_18O`](project_18O) |
+| Project | Simulating an atomic nucleus on a quantum computer (¹⁸O ground state with the variational quantum eigensolver, VQE), based on a published research paper | [`project_18O`](project_18O) |
 
 Each folder has the scripts (`*.py`) and their recorded output (`*_out.txt`).
 
