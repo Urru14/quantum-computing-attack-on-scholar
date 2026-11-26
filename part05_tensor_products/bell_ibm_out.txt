@@ -1,0 +1,2 @@
+backend: ibm_fez  job: dc2sh0ds2omc738chqr0
+Bell pair on ibm_fez, 1000 shots: {'00': 501, '01': 23, '10': 23, '11': 453}   01 or 10: 46 (4.6%)

@@ -1,0 +1,18 @@
+|0> = (|+> + |->)/sqrt2 : True
+|1> = (|+> - |->)/sqrt2 : True
+U(t=0.5) =
+ [[0.8776+0.j     0.    -0.4794j]
+ [0.    -0.4794j 0.8776+0.j    ]]
+U^dagger U = I : True
+U = cos(t) I - i sin(t) X : True
+|psi(t)> = U|0> = [0.8776+0.j     0.    -0.4794j]   P(1) = 0.2298
+P0 = <psi|M0|psi> = 0.36   after: [1. 0.]
+P1 = <psi|M1|psi> = 0.64   after: [0. 1.]
+M0^dag M0 + M1^dag M1 = I : True
+alpha = 0.6i  ->  after measuring 0: [0.+1.j 0.+0.j]  = i|0>  (a global phase)
+P+ = 0.98   P- = 0.02
+Y basis: P(+i) = 0.5   P(-i) = 0.5
+X-basis measurement, 1000 shots ('0' = +, '1' = -): {'0': 983, '1': 17}
+t = pi/2:  U = -iX : True   U|0> = [0.+0.j 0.-1.j]   P(1) = 1.0
+measure twice, 1000 shots: {'00': 359, '11': 641}   first and second always agree: True
+(|0> + i|1>)/sqrt2:  Z: P(0) = 0.5  P(1) = 0.5    Y: P(+i) = 1.0  P(-i) = 0.0
